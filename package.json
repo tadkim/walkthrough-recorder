@@ -1,0 +1,29 @@
+{
+  "name": "walkthrough-recorder",
+  "version": "0.1.0",
+  "description": "Playwright 기반 워크스루/기능 클립 녹화 엔진 — 가짜 커서, 실타이밍 프레임 캡처, ffmpeg MP4 인코딩",
+  "type": "module",
+  "main": "src/index.mjs",
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ffmpeg-static": "^5.2.0"
+  },
+  "peerDependencies": {
+    "playwright": ">=1.40.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tadkim/walkthrough-recorder.git"
+  }
+}
